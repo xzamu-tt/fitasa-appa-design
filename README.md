@@ -152,7 +152,7 @@ Se usó **1DKP** únicamente como referencia para definir el sitio activo (cocri
 
 ![ConSurf conservation map on 1DKL](figures/fig1_consurf_conservation.png)
 
-*Cartoon del homodímero 1DKL coloreado por grado de conservación (rojo = más conservado → azul = más variable). El script generador está en [`pymol_scripts/fig1_consurf_conservation.pml`](pymol_scripts/fig1_consurf_conservation.pml).*
+*Cartoon de la cadena A de 1DKL coloreado por grado de conservación (rojo = más conservado → azul = más variable). Solo se representa el monómero ya que ConSurf se corrió sobre la cadena A. El script generador está en [`pymol_scripts/fig1_consurf_conservation.pml`](pymol_scripts/fig1_consurf_conservation.pml).*
 
 ---
 
