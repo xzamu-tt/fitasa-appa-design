@@ -4,8 +4,8 @@
 
 fetch 1dkl, async=0
 
-# 1DKL es homodímero; solo se muestra la cadena A
-remove chain B, 1dkl
+# 1DKL es homodímero. Solo se muestra la cadena A
+remove 1dkl and chain B
 
 hide everything
 show cartoon, 1dkl
