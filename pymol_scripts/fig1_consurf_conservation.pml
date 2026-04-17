@@ -5,6 +5,9 @@
 # PDB con B-factor = grado de conservación (1-9) producido por ConSurf
 load ../data/1DKL_ATOMS_section_With_ConSurf.pdb, appa
 
+# 1DKL es homodímero; solo se muestra la cadena A
+remove chain B, appa
+
 hide everything
 show cartoon, appa
 set cartoon_transparency, 0

@@ -9,6 +9,9 @@
 
 fetch 1dkl, async=0, name=WT
 
+# 1DKL es homodímero; solo se muestra la cadena A (los modelos AF3 ya son monómeros)
+remove chain B, WT
+
 # Comentar/descomentar según la disponibilidad de los .cif en el equipo local:
 # load path/to/t03_2025_07_03_11_59_3/fold_2025_07_03_11_59_model_0.cif, Fitasa01
 # load path/to/t02_2025_07_03_11_48/fold_2025_07_03_11_48_model_0.cif,   Fitasa02

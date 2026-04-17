@@ -4,6 +4,9 @@
 
 fetch 1dkl, async=0
 
+# 1DKL es homodímero; solo se muestra la cadena A
+remove chain B, 1dkl
+
 hide everything
 show cartoon, 1dkl
 color grey70, 1dkl
